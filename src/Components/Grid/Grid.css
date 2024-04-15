@@ -1,0 +1,53 @@
+.grid {
+    display: flex;
+    width: 60%;
+    height: 80%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border: 10px solid white;
+    border-radius: 10%;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+    position: relative;
+    right: 80px;
+}
+
+.grid-wrapper{
+    border: 2px solid white;
+    width: 60vw;
+    height: 100vh;
+    position: relative;
+    left: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left top , rgb(50, 4, 4) , black);
+}
+
+.turn-highlight{
+    color: white;
+    position: relative;
+    font-size: larger;
+    bottom: 200px;
+    left: 30px;
+}
+
+.result{
+    color: whitesmoke;
+    position: relative;
+    bottom: 120px;
+    right: 110px;
+}
+
+.reset{
+    height: 40px;
+    width: 70%;
+}
+
+#winner{
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: x-large;
+}

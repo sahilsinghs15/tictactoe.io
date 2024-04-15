@@ -1,0 +1,13 @@
+.card {
+    border: 1px solid black;
+    padding: 1rem;
+    box-sizing: border-box; /* Include padding in the total width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%; /* 33.33% width for each card, subtracting padding */
+    height: 90px;
+    margin: 1rem; /* Adjust margin as needed */
+    border-radius: 10%;
+    background:linear-gradient(to left top , blue , black);
+}
